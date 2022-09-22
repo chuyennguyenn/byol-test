@@ -26,5 +26,5 @@ C1: '( ' [C2 | PIOR1] ')' ;
 C2: '[' [C3 | PIOR1] ']' ;
 C3: '{' PIOR1 '}' ;
 PIOR1: NUM [ '*' | ':' ] NUM ;
-PIOR2: NUM [ '+' | '-' ] NU
+PIOR2: NUM [ '+' | '-' ] NUM ;
 
